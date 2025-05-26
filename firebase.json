@@ -1,14 +1,19 @@
 {
-  "apphosting": {
-    "backendId": "subhub",
-    "rootDir": "/",
-    "ignore": [
-      "node_modules",
-      ".git",
-      "firebase-debug.log",
-      "firebase-debug.*.log",
-      "functions"
-    ],
-    "alwaysDeployFromSource": true
-  }
+    "apphosting": {
+        "backendId": "subhub",
+        "rootDir": "/",
+        "ignore": [
+            "node_modules",
+            ".git",
+            "firebase-debug.log",
+            "firebase-debug.*.log",
+            "functions"
+        ],
+        "alwaysDeployFromSource": true
+    },
+    "firestore": {
+        "database": "subhub",
+        "rules": "firestore.rules",
+        "indexes": "firestore.indexes.json"
+    }
 }
