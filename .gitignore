@@ -25,3 +25,4 @@ dist-ssr
 
 # SubHub specific
 .secrets
+.env
